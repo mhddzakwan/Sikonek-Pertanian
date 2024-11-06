@@ -15,7 +15,7 @@ const int leftMotorPWMSpeedChannel = 5;
 # sensor_di-rumah.ino
 File ini adalah skrip untuk esp yang ada di rumah, yg terhubung dengan sensor DHT22 (di skrip masik pakai dht11), dan motor servo.
 silahkan konfigurasi. untuk melakukan pengkondisian pada cek suhu dht, konfigtuasi bagian if pada variabel t nya
-'''
+```
 if(t > 35.00){
     WiFiClient client;
     HTTPClient http;
@@ -43,4 +43,4 @@ if(t > 35.00){
     digitalWrite(ledPin, HIGH);
   }
   
-'''
+```
